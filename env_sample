@@ -1,0 +1,1 @@
+email_address = <Naukri email_address>password = <Naukri Password>mobile_number = <MobileNumber>resume_path = <Path to Resume>execution_time_slots = ["10:00", "11:20", "18:00", "12:31"] # Time slots in you want it to scheduleretry_time = 10 # In Minutes, Retry After time fixed given time interval, if it failed due to some issue

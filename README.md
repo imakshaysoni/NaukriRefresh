@@ -1,3 +1,17 @@
+# Thanks to Navchandar for providing the script. Here are the enhancements I've made:
+
+Converted the script into a scheduled job.
+
+Implemented a retry mechanism to automatically retry the job in case of failure.
+
+Introduced an .env file to load necessary details such as email, password, mobile number, resume path, and retry time.
+
+All logs are now stored in nohup.out and naukri.log.
+
+Currently working on implementing an auto-apply feature.
+
+
+
 # Daily Naukri Update
 [![license](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/navchandar/Naukri/blob/master/LICENSE) [![Build Status](https://travis-ci.com/navchandar/Naukri.svg?branch=master)](https://travis-ci.com/navchandar/Naukri)  [![Code Climate](https://codeclimate.com/github/navchandar/Naukri.svg)](https://codeclimate.com/github/navchandar/Naukri)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) 
@@ -24,10 +38,11 @@ python3 -m venv .venv      # create virtual environment for installing dependenc
 pip install -r requirements.txt
 ```
 
-Update ResumePath, Naukri login username, password, mobile number in naukri.py file and then run the script
+Update ResumePath, Naukri login username, password, mobile number in .env file and then run the script.
 ```bash
-python naukri.py
+nohup python naukri.py &
 ```
+nohup: Helps in running it as background job.
 
 
 ## Browsers support

@@ -3,3 +3,4 @@ webdriver_manager==4.0.1
 selenium==4.21.0
 pypdf>=3.9.0
 schedule>=1.2.2
+streamlit==1.36.0

@@ -10,7 +10,7 @@ All logs are now stored in nohup.out and naukri.log.
 
 Currently working on implementing an auto-apply feature.
 
-
+Visit: www.akshaysoni.me
 
 # Daily Naukri Update
 [![license](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/navchandar/Naukri/blob/master/LICENSE) [![Build Status](https://travis-ci.com/navchandar/Naukri.svg?branch=master)](https://travis-ci.com/navchandar/Naukri)  [![Code Climate](https://codeclimate.com/github/navchandar/Naukri.svg)](https://codeclimate.com/github/navchandar/Naukri)

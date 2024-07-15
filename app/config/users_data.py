@@ -1,1 +1,1 @@
-resume_users_details = []
+resume_users_details = []
